@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visulizer</title>
+    <link rel="stylesheet" href="style.css" />
+    <body>   
+
+    <header>
+      <div>Algorithm Visulizer</div>
+    </header>
+    <main>
+      <div class="user">
+        <section class="user__input">
+          <input type="Number" id="user__num" required/>
+          <label for="user__num">Enter Total bars</label>
+        </section>
+        <section class="user__range">
+          <input type="range" name="time" id="slider" value="50" max="100" min="0">
+          <span id="slow">SLOW</span><span id="fast">FAST</span>
+          <div id="progress-bar"></div>
+      </section>
+
+      </div>
+     
+      
+      <div class="buttons">
+        <button id="gn_btn">Generate</button>
+        <button id="srt_btn">Sort</button>
+        <button id="cl_btn">Clear</button>
+      </div>
+      <div class="sort__msg">Sorted!</div>
+      <div id="container"></div>
+    </main>
+    <footer>~Made by Nagendra~</footer>
+    <script src="src.js"></script>
+   
+  </body>
+</html>
